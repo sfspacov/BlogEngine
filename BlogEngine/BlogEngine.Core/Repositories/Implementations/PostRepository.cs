@@ -32,7 +32,7 @@ namespace BlogEngine.Core.Services.Implementations
 
             return Task.FromResult(query
                  .Include(b => b.Comments)
-                 .OrderByDescending(b => b.DateCreated)
+                 .OrderBy(b => b.DateCreated)
                  .ThenByDescending(b => b.LastUpdateDate)
                  .AsEnumerable());
         }
@@ -61,7 +61,7 @@ namespace BlogEngine.Core.Services.Implementations
             }
 
             var posts = query
-                .OrderByDescending(b => b.DateCreated)
+                .OrderBy(b => b.DateCreated)
                 .ThenByDescending(b => b.LastUpdateDate);
 
             return posts;
