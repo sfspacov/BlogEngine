@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "4b7e0d6c-5d88-4287-9605-ae5679c26e79",
+		"_postman_id": "ae7bc6af-85e9-4885-8662-b3226cb5c187",
 		"name": "BlogEngine.API",
 		"description": "This is a Web API for BlogEngine project",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
@@ -1371,7 +1371,7 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "1"
+											"value": "2"
 										}
 									]
 								}

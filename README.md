@@ -4,7 +4,7 @@ A blogging engine based on ASP.NET Core 3.1
 
 ## Run on local
 - Clone the repository
-- To create the database for this project use the local instance of SQL Server **(localdb)\MSSQLLocalDB** and execute this script: https://github.com/sfspacov/BlogEngine/blob/master/BlogEngine/BlogEngine.Core/SQLScripts/Generate-Database.sql
+- To create the database for this project use the local instance of SQL Server **(localdb)\MSSQLLocalDB** and execute this script: https://raw.githubusercontent.com/sfspacov/BlogEngine/main/BlogEngine/BlogEngine.Core/SQLScripts/Generate-Database.sql
 - Set the following project as startup and run it
   - **BlogEngine.Api**
 
