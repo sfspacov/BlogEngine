@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "ae7bc6af-85e9-4885-8662-b3226cb5c187",
+		"_postman_id": "f9f65220-a462-4a3f-86ea-be2ef86d5753",
 		"name": "BlogEngine.API",
 		"description": "This is a Web API for BlogEngine project",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
@@ -1277,7 +1277,7 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "1"
+											"value": "3"
 										}
 									]
 								}
@@ -1329,7 +1329,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{  \r\n  \"postID\": 2,\r\n  \"body\": \"The best book that I've ever read\"\r\n}",
+									"raw": "{  \r\n  \"postID\": 1,\r\n  \"body\": \"The best book that I've ever read\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -1371,7 +1371,7 @@
 									"variable": [
 										{
 											"key": "id",
-											"value": "2"
+											"value": "1"
 										}
 									]
 								}
