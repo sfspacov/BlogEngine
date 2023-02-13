@@ -64,7 +64,7 @@ namespace BlogEngine.Core.Services.Implementations
                 .OrderBy(b => b.DateCreated)
                 .ThenByDescending(b => b.LastUpdateDate);
 
-            return posts;
+            return await posts.ToListAsync();
         }
 
         public override async Task<int> CreateAsync(Post entity)

@@ -51,6 +51,8 @@ The project based on modern front edge technologies:
  - Ability to create and manage
    - Post
    - Review
+   - Comment
+   - User
  - Pagination
  - Register/Login system
  - Json on requests and responses
